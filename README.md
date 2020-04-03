@@ -7,7 +7,7 @@ Yao’s millionaire problem:
 2. Both together wants to know whether x>y, but none wish to reveal x or y.
 3. Let, r1<= x,y <= r2, and Bob has public-private keys (PUb and PRb).
 
-## Alogrithm
+## Algorithm
 Alice is the intiator :
 1. Compute C = E(PUb, M1), M1 a large random number
 2. Compute C1 = C – x and sends C1 to Bob
