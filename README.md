@@ -16,7 +16,9 @@ Alice is the intiator :
 5. Compute Z i = M[i] mod p, r1<=i<r2
 6. Verify if |Z[i] – Z[j]| >= 2 for all (i,j) and 0 < Z[i] < p-1, for all i, otherwise try another prime and repeat from step-4
 7. Send to Alice the sequence: Z[1], Z[2],..., Z[y] , Z[y+1]+1, Z[y+2]+1, ...,Z[r2]+ 1,p
-
+8. Check if x-th number in the sequence is congruent to M1 mod p, if so, x <y, otherwise x>y
+9. Alice tells the conclusion to Bob
+10. Receive conclusion
 # Simple python implementation (python3)
 ``` 
 INPUT
